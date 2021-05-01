@@ -50,12 +50,6 @@ div.sticky {
           </a>
         </div>
       {% endif %}
-      {% if user.location %}
-        <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-          {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
-          {{ user.location }}
-        </div>
-      {% endif %}
       {% if site.social_media %}
         <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
           {% for account in site.social_media %}
@@ -68,10 +62,6 @@ div.sticky {
             </div>
           {% endfor %}
         </div>
-      {% endif %}
-      {% if user.hireable %}
-        <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
-      <br></br>
       {% endif %}
       <head>
       <style>
@@ -115,11 +105,7 @@ div.sticky {
         </style>
         </head>
         <ul>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Experience">Experience</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Education">Education</a></li>          
-          <li><a href="#Interests">Interests</a></li>
+          <li><a href="#About">Missions</a></li>
         </ul>
     </div>
   {% endif %}
