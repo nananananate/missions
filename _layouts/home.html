@@ -14,9 +14,9 @@
     </div>
 
     
-    {% if site.links %}
+    {% if site.topics %}
       <div class="my-6">
-        {% include links.html %}
+        {% include resources.html %}
       </div>
     {% endif %}
 
@@ -46,8 +46,8 @@
 
         
 
-        {% if site.links %}
-          {% include links.html %}
+        {% if site.topics %}
+          {% include resources.html %}
         {% endif %}
 
         {% unless posts_total == 0 %}
