@@ -1,0 +1,82 @@
+layout: sidebar
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+
+experience:
+
+  - position: Technical Lead
+    location: • Irvine, California
+    employer: StartSmart
+    period: October 2020 - Current
+
+  - position: Project Committee Member
+    location: • Irvine, California
+    employer: UCI ICS Student Council
+    period: August 2020 - Current
+
+  - position: Computer Networks Intern
+    location: • Irvine, California
+    employer: Advanced Power and Engineering Program
+    period: October 2019 - Current
+
+  - position: IT Assistant Manager
+    location: • Irvine, California
+    employer: Lee Starloop IT
+    period: October 2018 - June 2019
+    
+    
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    archived: false
+    forks: true
+    projects:
+    # - repo-name
+
+education:
+  - name: University of California, Irvine • Donald Bren School of Computer Science
+    position: B.S. Candidate in Computer Science
+    period: September 2017 - June 2021
+    
+# social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  # twitter: your_username
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
+
+Links:
+  - name: Give
+    web_url: https://churchofsouthland.ccbchurch.com/goto/forms/681/responses/new 
+    image_url: http://goingami.com/wp-content/uploads/2017/12/cropped-New-AMI-Logo-Vertical-01.png
+
